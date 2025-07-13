@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "591956192140",
+    "project_id": "one-ai-1155",
+    "storage_bucket": "one-ai-1155.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591956192140:android:99eece2d6b6d92e8ffc4a9",
+        "android_client_info": {
+          "package_name": "com.oneai.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591956192140-qqclaahlhjq4nbn6kos12hnhahsi1bds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oneai.android",
+            "certificate_hash": "a301dac3d4cd98c2b03b0699bdc561d25c252dda"
+          }
+        },
+        {
+          "client_id": "591956192140-5vkrflocb1o7jj5iq1n1dk25d3kiee8n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG8eqv-VYb1IiX2lo3vVxk9gFQN3rTEDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591956192140-5vkrflocb1o7jj5iq1n1dk25d3kiee8n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
