@@ -33,11 +33,11 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion '1.5.0'
+        kotlinCompilerExtensionVersion '1.5.11'
     }
 
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '17'
     }
 }
 
@@ -73,6 +73,4 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4:1.6.7'
 
     // Compose Tooling (optional)
-    debugImplementation "androidx.compose.ui:ui-tooling:1.5.4"
-    implementation "androidx.compose.ui:ui-tooling-preview:1.5.4"
 }
