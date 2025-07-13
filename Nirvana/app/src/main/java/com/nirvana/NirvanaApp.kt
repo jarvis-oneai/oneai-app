@@ -1,6 +1,7 @@
 package com.nirvana
 
 import android.app.Application
+import com.nirvana.BuildConfig
 import com.google.firebase.FirebaseApp
 import com.segment.analytics.kotlin.android.Analytics
 import com.segment.analytics.kotlin.android.plugins.AndroidContextPlugin
@@ -14,7 +15,7 @@ class NirvanaApp : Application() {
         FirebaseApp.initializeApp(this)
 
         // Segment analytics initialization
-        val analytics = Analytics("D9BLhZgz5SFSGhX32Z2Z8ByxD2CbrodY") {
+        val analytics = Analytics(BuildConfig.SEGMENT_WRITE_KEY) {
             this.application = this@NirvanaApp
             use(AndroidContextPlugin())
             use(FirebasePlugin())
