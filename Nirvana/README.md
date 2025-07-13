@@ -20,6 +20,16 @@ cd Nirvana
 
 The resulting APK can be found under `Nirvana/app/build/outputs/apk/debug/`.
 
+### Analytics Setup
+
+Set your Segment write key in `Nirvana/gradle.properties` before building:
+
+```properties
+segment.writeKey=YOUR_WRITE_KEY
+```
+
+`BuildConfig` exposes this value as `SEGMENT_WRITE_KEY` at runtime.
+
 ## Requirements
 
 - JDK 17 (set `JAVA_HOME` to the JDK path)
