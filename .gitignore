@@ -1,0 +1,11 @@
+# Ignore local configuration
+local.properties
+Nirvana/local.properties
+
+# Ignore build directories
+/build/
+
+# Ignore IDE files
+.idea/
+*.iml
+.gradle/

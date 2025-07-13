@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigate
 import androidx.compose.runtime.Composable
+import com.google.firebase.ktx.Firebase
 
 @Composable
 fun ProfileScreen(navController: NavHostController) {

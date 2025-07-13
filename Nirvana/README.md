@@ -4,7 +4,14 @@ This repository contains the Nirvana Android application built with Jetpack Comp
 
 ## Building the project
 
-The project uses the Gradle wrapper. Ensure JDK 17 is installed and run:
+The project uses the Gradle wrapper. Ensure JDK 17 is installed and set the
+`JAVA_HOME` environment variable to its location, for example:
+
+```bash
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+```
+
+Then run:
 
 ```bash
 cd Nirvana
@@ -25,7 +32,7 @@ segment.writeKey=YOUR_WRITE_KEY
 
 ## Requirements
 
-- JDK 17
+- JDK 17 (set `JAVA_HOME` to the JDK path)
 - Android SDK with API level 34
 - Gradle 8
 
